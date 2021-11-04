@@ -1,0 +1,84 @@
+# Instalar webpack
+-> npm i -D webpack webpack-cli
+
+# Ejecutar webpack
+-> npx webpack --mode production
+
+# Establecer la configuracion de webpack
+-> webpack.config.js
+-> crear el script "build"
+
+# Instalar Babel
+->  npm i -D @babel/core babel-loader @babel/preset-env @babel/plugin-transform-runtime
+
+# Configurar Babel y Babel en webpack
+-> .babelrc y modules en webpack
+
+# Instalar el plugin para HTML
+-> npm i -D html-webpack-plugin
+
+# Configurarlo en webpack
+-> Añadir como plugin a la configuracion 
+
+# Añadir el script de dev (modo desarrollo)
+-> "dev": "webpack --mode development"
+
+# Instalar las dependencias para CSS
+-> npm i -D css-loader mini-css-extract-plugin
+
+# Configuramos en el archivo webpack las rules y añadimos el plugin
+-> 
+
+# Instalar webpack dev server
+-> npm i -D webpack-dev-server
+
+# Configurar el servidor y añadir el script en el package.json para ejecutarlo
+-> "devServer": "webpack serve --mode development"
+
+# Instalar el loader para el preprocesador
+-> npm i -D stylus stylus-loader
+
+# Configurar en el webpack el preprocesador e importar al i ndex.js del src
+->
+
+# Instalar el plugin para los archivos
+-> npm i -D copy-webpack-plugin
+
+# configurarlo en el archivo webpack
+-> establecer el from y el to
+
+# Instalar url loader y file loader para hacer el loader de fuentes
+-> npm i -D url-loader file-loader
+
+http://google-webfonts-helper.herokuapp.com/fonts/ubuntu?subsets=cyrillic,latin
+
+NOTA: hay una mejor forma de cargar assets: https://webpack.js.org/guides/asset-modules/
+
+OPTIMIZAR, HASHES COMPRESION Y MINIFICACION
+
+# Instalar minificadores para css y js
+-> npm i -D css-minimizer-webpack-plugin terser-webpack-plugin
+
+# Configurarlos en webpack
+->
+
+# Variables de entorno
+-> npm i -D dotend-webpack
+
+# Modo de desarrollo
+-> crear el archivo .dev y optimizar para el modo desarrollo
+-> incluir en el package.json el cambio pertinente al comando dev
+
+# Modo produccion
+-> npm i -D install clean-webpack-plugin
+
+# Configurarlo en el webpack y tambien en el json, correrlo y va a limpiar todos los hashes
+->
+
+# Para activar el npm run watch
+-> configurarlo en el package.json
+-> "watch": "npm run dev -- --watch"
+
+
+# Deploy a Netlify
+-> crear archivo netlify.toml
