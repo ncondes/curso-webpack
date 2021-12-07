@@ -38,7 +38,7 @@
 # Instalar el loader para el preprocesador
 -> npm i -D stylus stylus-loader
 
-# Configurar en el webpack el preprocesador e importar al i ndex.js del src
+# Configurar en el webpack el preprocesador e importar al index.js del src
 ->
 
 # Instalar el plugin para los archivos
@@ -82,3 +82,8 @@ OPTIMIZAR, HASHES COMPRESION Y MINIFICACION
 
 # Deploy a Netlify
 -> crear archivo netlify.toml
+
+# webpack bundle analyzer
+-> npm i -D webpack-bundle-analyzer
+-> npx webpack --profile --json > stats.json
+-> npx webpack-bundle-analyzer stats.json
