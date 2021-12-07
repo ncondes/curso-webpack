@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/ncondes/getting-started-with-webpack)
-- Live Site URL: [Live site URL here]()
+- Live Site URL: [Live site URL here](https://wonderful-heyrovsky-876d95.netlify.app/)
 
 ## My process
 
